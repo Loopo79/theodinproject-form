@@ -7,5 +7,91 @@
         <link rel="stylesheet" href="style.css" />
         <script src="script.js" defer></script>
     </head>
-    <body></body>
+    <body>
+        <div class="container">
+            <div class="side-display">
+                <div class="logo-background">
+                    <img src="assets/odin-lined.png" alt="website logo: odin" />
+                    ODIN
+                </div>
+                <p class="attribution">
+                    Photo by
+                    <a
+                        href="https://unsplash.com/photos/a-close-up-of-a-green-plant-with-lots-of-leaves-u6-HtdCTl5M"
+                        >Chelsey Marques</a
+                    >
+                    on <a href="https://unsplash.com">Unsplash</a>
+                </p>
+            </div>
+            <div class="form-display">
+                <p>
+                    This is not a real online service! You know you need
+                    something like this in your life to help you realize your
+                    deepest dreams. Sign up now to get started.
+                </p>
+                <p>You <em>know</em> you want to.</p>
+                <form action="">
+                    <fieldset>
+                        <legend>Let's do it!</legend>
+                        <div class="form-group">
+                            <div class="form-element">
+                                <label for="first-name">FIRST NAME</label>
+                                <input
+                                    type="text"
+                                    name="first_name"
+                                    id="first-name"
+                                />
+                            </div>
+                            <div class="form-element">
+                                <label for="second-name">SECOND NAME</label>
+                                <input
+                                    type="text"
+                                    name="second_name"
+                                    id="second_name"
+                                />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-element">
+                                <label for="email">EMAIL</label>
+                                <input type="email" name="email" id="email" />
+                            </div>
+                            <div class="form-element">
+                                <label for="phone-number">PHONE NUMBER</label>
+                                <input
+                                    type="tel"
+                                    name="phone_number"
+                                    id="phone-number"
+                                />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-element">
+                                <label for="password">PASSWORD</label>
+                                <input
+                                    type="password"
+                                    name="password"
+                                    id="password"
+                                    required
+                                />
+                            </div>
+                            <div class="form-element">
+                                <label for="confirm-password"
+                                    >CONFIRM PASSWORD</label
+                                >
+                                <input
+                                    type="password"
+                                    name="confirm_password"
+                                    id="confirm-password"
+                                    required
+                                />
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+                <button class="create-account-button">Create Account</button>
+                <p>Already have an account? <a href="">log in</a></p>
+            </div>
+        </div>
+    </body>
 </html>
