@@ -6,5 +6,5 @@ These kinds of projects provide an image which we base our webpage on. This proj
 
 # This was the provided reference image:-
 
-![image of a website that this project was based on](assets/page_inspriation.png)
+![image of a website that this project was based on](assets/page_inspiration.png)
 
